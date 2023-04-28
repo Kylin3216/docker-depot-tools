@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM registry.cn-shanghai.aliyuncs.com/icekylin/ubuntu:20.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN echo "" > /etc/apt/sources.list
 RUN echo "deb http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ jammy main restricted universe multiverse" >> /etc/apt/sources.list
